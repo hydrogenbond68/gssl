@@ -3,7 +3,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { findUser } from '../utils/localStorage';
 import { validateEmail, validatePassword } from '../utils/validation';
-import { FaShieldAlt } from 'react-icons/fa';
+import Logo from '../components/Common/Logo';
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -26,14 +26,12 @@ const LoginPage = () => {
       return;
     }
 
-    // Check for admin login
     if (formData.email === 'admin@secureguard.com' && formData.password === 'admin123') {
       login({ id: 'admin', name: 'Administrator', email: formData.email, role: 'admin' });
       navigate('/admin');
       return;
     }
 
-    // Check for regular user
     const user = findUser(formData.email, formData.password);
     if (user) {
       login({ id: user.id, name: user.name, email: user.email, role: 'user' });
@@ -48,7 +46,7 @@ const LoginPage = () => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <div className="flex justify-center">
-            <FaShieldAlt className="text-primary text-5xl" />
+            <Logo className="h-24 w-auto" />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Sign in to your account</h2>
           <p className="mt-2 text-center text-sm text-gray-600">
@@ -98,8 +96,7 @@ const LoginPage = () => {
           </div>
           
           <div className="text-center text-sm text-gray-600">
-            <p>Demo Admin: admin@secureguard.com / admin123</p>
-            <p>Or register as a new user</p>
+            <p>register as a new user</p>
           </div>
         </form>
       </div>

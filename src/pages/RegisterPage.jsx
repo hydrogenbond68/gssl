@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { saveUser, findUserByEmail } from '../utils/localStorage';
 import { validateEmail, validatePassword, validateName } from '../utils/validation';
-import { FaShieldAlt } from 'react-icons/fa';
 
 const RegisterPage = () => {
   const navigate = useNavigate();
@@ -58,7 +57,15 @@ const RegisterPage = () => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <div className="flex justify-center">
-            <FaShieldAlt className="text-primary text-5xl" />
+            <img 
+              src="/logo.png" 
+              alt="SecureGuard Pro" 
+              className="h-24 w-auto object-contain mb-4"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src = "https://placehold.co/200x80/1e3a8a/white?text=SecureGuard";
+              }}
+            />
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">Create your account</h2>
           <p className="mt-2 text-center text-sm text-gray-600">

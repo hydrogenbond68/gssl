@@ -4,12 +4,12 @@ import { getServices } from '../utils/localStorage';
 import { FaShieldAlt, FaVideo, FaDog, FaLock, FaUsers, FaPaw } from 'react-icons/fa';
 
 const iconMap = {
-  '🛡️': <FaShieldAlt />,
-  '📹': <FaVideo />,
-  '🐕': <FaDog />,
-  '🔒': <FaLock />,
-  '👮': <FaUsers />,
-  '🐕‍🦺': <FaPaw />
+  '1': 'https://your-new-image-1.jpg',
+  '2': 'https://your-new-image-2.jpg',
+  '3': 'https://your-new-image-3.jpg',
+  '4': 'https://your-new-image-4.jpg',
+  '5': 'https://your-new-image-5.jpg',
+  '6': 'https://your-new-image-6.jpg'
 };
 
 const ServicesPage = () => {

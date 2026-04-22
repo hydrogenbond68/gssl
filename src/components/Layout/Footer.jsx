@@ -1,52 +1,64 @@
 import React from 'react';
-import { FaShieldAlt, FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import Logo from '../Common/Logo';
 
 const Footer = () => {
   return (
     <footer className="bg-dark text-gray-300">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* Company Info with Logo */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <FaShieldAlt className="text-accent text-2xl" />
-              <span className="text-white text-xl font-bold">Gssl SecureGuard Pro</span>
+            <div className="mb-4">
+              <Logo className="h-12 w-auto mb-2" />
             </div>
-            <p className="text-sm">Providing top-notch security solutions for over a decade. Your safety is our priority.</p>
+            <p className="text-sm">
+              Providing top-notch security solutions for over a decade. Your safety is our priority.
+            </p>
           </div>
 
+          {/* Quick Links */}
           <div>
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="/" className="hover:text-accent transition-colors">Home</a></li>
               <li><a href="/services" className="hover:text-accent transition-colors">Services</a></li>
-              <li><a href="/login" className="hover:text-accent transition-colors"></a></li>
+              <li><a href="/login" className="hover:text-accent transition-colors">Login</a></li>
             </ul>
           </div>
 
+          {/* Contact Info */}
           <div>
             <h3 className="text-white font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <FaPhone className="text-accent" />
-                <span>+254704 461 031</span>
+                <span>+254 704 461 031</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-accent" />
-                <span>gssl@secureguardpro.com</span>
+                <span>info@secureguardpro.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-accent" />
-                <span>Lower kabete, Nairobi</span>
+                <span>Nairobi, Kenya</span>
               </li>
             </ul>
           </div>
 
+          {/* Social Media */}
           <div>
             <h3 className="text-white font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-2xl hover:text-accent transition-colors"><FaFacebook /></a>
-              <a href="#" className="text-2xl hover:text-accent transition-colors"><FaTwitter /></a>
-              <a href="#" className="text-2xl hover:text-accent transition-colors"><FaLinkedin /></a>
+              <a href="#" className="text-2xl hover:text-accent transition-colors">
+                <FaFacebook />
+              </a>
+              <a href="#" className="text-2xl hover:text-accent transition-colors">
+                <FaTwitter />
+              </a>
+              <a href="#" className="text-2xl hover:text-accent transition-colors">
+                <FaLinkedin />
+              </a>
             </div>
           </div>
         </div>
