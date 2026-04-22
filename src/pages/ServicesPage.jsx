@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { getServices } from '../utils/localStorage';
 import { FaShieldAlt, FaVideo, FaDog, FaLock, FaUsers, FaPaw } from 'react-icons/fa';
 
@@ -13,10 +14,15 @@ const iconMap = {
 
 const ServicesPage = () => {
   const [services, setServices] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     setServices(getServices());
   }, []);
+
+  const handleServiceClick = (serviceId) => {
+    navigate(`/service/${serviceId}`);
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -32,7 +38,11 @@ const ServicesPage = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={service.id} className="card group hover:-translate-y-2 transition-all duration-300">
+            <div 
+              key={service.id} 
+              onClick={() => handleServiceClick(service.id)}
+              className="card group hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+            >
               <div className="relative h-64 overflow-hidden">
                 <img
                   src={service.image}
@@ -47,9 +57,9 @@ const ServicesPage = () => {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3 text-dark">{service.name}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-primary font-semibold">Learn More →</span>
-                </div>
+                <button className="text-primary font-semibold hover:text-secondary transition-colors">
+                  View Details →
+                </button>
               </div>
             </div>
           ))}

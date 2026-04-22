@@ -22,7 +22,7 @@ const defaultServices = [
     id: '3',
     name: 'Dog Handling & Training',
     description: 'Expertly trained security dogs and handlers for enhanced security operations.',
-    image: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800',
+    image: 'https://i.postimg.cc/zGK5SKzd/Whats-App-Image-2026-04-04-at-13.jpg',
     icon: '🐕'
   },
   {

@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <FaShieldAlt className="text-accent text-2xl" />
-              <span className="text-white text-xl font-bold">SecureGuard Pro</span>
+              <span className="text-white text-xl font-bold">Gssl SecureGuard Pro</span>
             </div>
             <p className="text-sm">Providing top-notch security solutions for over a decade. Your safety is our priority.</p>
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="/" className="hover:text-accent transition-colors">Home</a></li>
               <li><a href="/services" className="hover:text-accent transition-colors">Services</a></li>
-              <li><a href="/login" className="hover:text-accent transition-colors">Login</a></li>
+              <li><a href="/login" className="hover:text-accent transition-colors"></a></li>
             </ul>
           </div>
 
@@ -28,15 +28,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2">
                 <FaPhone className="text-accent" />
-                <span>+1 (555) 123-4567</span>
+                <span>+254704 461 031</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-accent" />
-                <span>info@secureguardpro.com</span>
+                <span>gssl@secureguardpro.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-accent" />
-                <span>123 Security Blvd, NY 10001</span>
+                <span>Lower kabete, Nairobi</span>
               </li>
             </ul>
           </div>

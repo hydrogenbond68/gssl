@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2 text-xl font-bold">
             <FaShieldAlt className="text-accent text-2xl" />
-            <span>SecureGuard Pro</span>
+            <span>Gssl SecureGuard Pro</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-6">
