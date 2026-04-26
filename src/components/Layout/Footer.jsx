@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-accent" />
-                <span>info@secureguardpro.com</span>
+                <span>gssl@secureguardpro.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-accent" />

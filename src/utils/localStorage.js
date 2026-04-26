@@ -7,43 +7,43 @@ const defaultServices = [
   {
     id: '1',
     name: 'Guarding Services',
-    description: 'Professional security guards for residential and commercial properties. 24/7 surveillance and rapid response.',
-    image: 'https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800',
+    description: 'Professional security guards for residential and commercial properties. 24/7 surveillance and rapid response. Our trained guards provide access control, crowd management, and emergency response services.',
+    image: 'https://media.istockphoto.com/id/1319764687/photo/security-guard-standing-outside-building.jpg?s=612x612&w=0&k=20&c=6ZpBUmhJnXwjCx0japPdi2gzJzyhP9-lQyyR3Pbqg_g=',
     icon: '🛡️'
   },
   {
     id: '2',
     name: 'CCTV Installation',
-    description: 'State-of-the-art CCTV systems with remote monitoring. High-definition cameras and intelligent analytics.',
-    image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800',
+    description: 'State-of-the-art CCTV systems with remote monitoring. High-definition cameras, night vision, motion detection, and intelligent analytics for complete surveillance coverage of your property.',
+    image: 'https://media.istockphoto.com/id/1320843452/photo/security-camera-over-city.jpg?s=612x612&w=0&k=20&c=GqA2O7qZVjLf_1G1-IA6eL2I4JW8fYUGIdHrr2B9zE4=',
     icon: '📹'
   },
   {
     id: '3',
     name: 'Dog Handling & Training',
-    description: 'Expertly trained security dogs and handlers for enhanced security operations.',
-    image: 'https://i.postimg.cc/zGK5SKzd/Whats-App-Image-2026-04-04-at-13.jpg',
+    description: 'Expertly trained security dogs and handlers for enhanced security operations. Our K9 units are trained in patrol, detection, narcotics search, and suspect apprehension.',
+    image: 'https://media.istockphoto.com/id/1180543700/photo/german-shepherd-dog-in-police-uniform.jpg?s=612x612&w=0&k=20&c=GkOZ9H2VYUh4Q8K5Xk_y6QF3m0BxR_t3hB2jFj9VKDY=',
     icon: '🐕'
   },
   {
     id: '4',
     name: 'Protection Services',
-    description: 'Comprehensive protection for life and property. Executive protection and asset security.',
-    image: 'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800',
+    description: 'Comprehensive protection for life and property. Executive protection, VIP security, asset protection, and risk assessment services for high-value targets and critical infrastructure.',
+    image: 'https://media.istockphoto.com/id/1284592983/photo/closeup-of-security-guard-wearing-body-armor-vest.jpg?s=612x612&w=0&k=20&c=uPmIDv9iFyyE9GBIh-wn0XV2XZ2rF3eQOpS-eOkNq5Y=',
     icon: '🔒'
   },
   {
     id: '5',
     name: 'Trained Personnel',
-    description: 'Highly trained security professionals certified in latest security protocols.',
-    image: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=800',
+    description: 'Highly trained security professionals certified in latest security protocols. Continuous training in conflict resolution, first aid, fire safety, and emergency response procedures.',
+    image: 'https://media.istockphoto.com/id/1330650907/photo/security-guards-standing-outside-building.jpg?s=612x612&w=0&k=20&c=od69ZkQhR_ybOO1ylnIfcCLYTnP2LWHKk69z7bqNHqY=',
     icon: '👮'
   },
   {
     id: '6',
     name: 'Security Dogs',
-    description: 'Specially trained security dogs for patrol, detection, and response.',
-    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800',
+    description: 'Specially trained security dogs for patrol, detection, and response. German Shepherds and Belgian Malinois trained in perimeter security, narcotics detection, and suspect apprehension.',
+    image: 'https://media.istockphoto.com/id/1147242551/photo/belgian-malinois-dog-police-dog.jpg?s=612x612&w=0&k=20&c=ufsXr0cWZPUIKe_3Ih3YMrT8uG6Y9sXHWTNWIQ5ktuw=',
     icon: '🐕‍🦺'
   }
 ];

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { FaBars, FaTimes, FaUser, FaSignOutAlt, FaTachometerAlt } from 'react-icons/fa';
+import { FaHome, FaInfoCircle, FaConciergeBell, FaEnvelope } from 'react-icons/fa';
 import Logo from '../Common/Logo';
 
 const Navbar = () => {
@@ -15,10 +16,12 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
-  const navLinks = [
-    { path: '/', label: 'Home' },
-    { path: '/services', label: 'Services' },
-  ];
+const navLinks = [
+  { path: '/', label: 'Home', icon: <FaHome className="mr-2" /> },
+  { path: '/about', label: 'About', icon: <FaInfoCircle className="mr-2" /> },
+  { path: '/services', label: 'Services', icon: <FaConciergeBell className="mr-2" /> },
+  { path: '/contact', label: 'Contact', icon: <FaEnvelope className="mr-2" /> }, // Add this line
+];
 
   return (
     <nav className="bg-dark text-white shadow-lg sticky top-0 z-50">

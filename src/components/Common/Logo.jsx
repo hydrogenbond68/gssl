@@ -6,12 +6,7 @@ const Logo = ({ className = "h-12 w-auto", showText = false, textColor = "text-w
 
   // Try multiple logo paths
   const logoPaths = [
-    '/logo.png',
-    '/logo.svg',
-    '/images/logo.png',
-    '/images/logo.svg',
-    '/src/assets/logo.svg',
-    'https://placehold.co/200x60/1e3a8a/white?text=SecureGuard'
+    '/public/images/logo.png',
   ];
 
   useEffect(() => {
