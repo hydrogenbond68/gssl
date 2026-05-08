@@ -62,7 +62,7 @@ const AboutPage = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-dark text-center mb-8">Our Story</h2>
           <div className="prose prose-lg mx-auto">
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
-              Founded in 2004 by <span className="font-bold text-primary">Hanniel Njiru Nguu</span>, SecureGuard Pro emerged from a vision to transform Kenya's security landscape. What started as a small team of dedicated professionals has grown into one of East Africa's most trusted security service providers.
+              Founded in 2004 by <span className="font-bold text-primary">Hanniel Njiru Nguu</span>, Guidstar Security Services LTD emerged from a vision to transform Kenya's security landscape. What started as a small team of dedicated professionals has grown into one of East Africa's most trusted security service providers.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mb-6">
               Over two decades, we've evolved from basic guarding services to comprehensive security solutions. Our journey has been marked by continuous innovation, investment in cutting-edge technology, and an unwavering commitment to excellence.

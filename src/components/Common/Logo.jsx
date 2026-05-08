@@ -35,9 +35,9 @@ const Logo = ({ className = "h-12 w-auto", showText = false, textColor = "text-w
     return (
       <div className={`flex items-center space-x-2 ${className}`}>
         <div className="bg-gradient-to-r from-primary to-accent px-4 py-2 rounded-lg">
-          <span className="text-white font-bold">🛡️ SecureGuard</span>
+          <span className="text-white font-bold">🛡️ GUIDESTAR SECURITY SERVICES LTD</span>
         </div>
-        {showText && <span className={textColor}>SecureGuard Pro</span>}
+        {showText && <span className={textColor}>GUIDESTAR SECURITY SERVICES LTD</span>}
       </div>
     );
   }

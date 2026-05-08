@@ -37,7 +37,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-accent" />
-                <span>gssl@secureguardpro.com</span>
+                <span>GUIDESTARSECURITYSERVICESLTD@GMAIL.com</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FaMapMarkerAlt className="text-accent" />
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
-          <p>&copy; 2024 SecureGuard Pro. All rights reserved.</p>
+          <p>&copy; 2026 SGUIDESTAR SECURITY SERVICES LTD. All rights reserved.</p>
         </div>
       </div>
     </footer>

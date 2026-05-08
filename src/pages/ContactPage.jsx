@@ -83,7 +83,7 @@ const ContactPage = () => {
             <FaEnvelope className="text-blue-500 text-5xl mx-auto mb-3" />
             <h3 className="text-xl font-bold text-dark mb-2">Email Us</h3>
             <p className="text-gray-500 text-sm mb-2">Within 24 hours</p>
-            <p className="text-primary font-semibold">gssl@secureguardpro.com</p>
+            <p className="text-primary font-semibold">GUIDESTAR SECURITY SERVICES LTD.com</p>
           </div>
         </div>
       </div>
